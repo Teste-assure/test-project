@@ -1,0 +1,9 @@
+{
+  "name": "wineaunt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WineAunt: deliberately vulnerable wine-review app for Assure testing",
+  "type": "module",
+  "engines": {"node": ">=24"},
+  "scripts": {"start": "node server.mjs", "test": "node --test"}
+}
